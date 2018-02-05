@@ -1,0 +1,27 @@
+{
+  "name": "jimthedev-scripts",
+  "version": "1.0.3",
+  "description": "",
+  "bin" : {
+    "jimthedev-scripts": "./src/index.js"
+  },
+  "scripts": {
+    "preinstall": "node src preinstall",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimthedev/jimthedev-scripts.git"
+  },
+  "engines": {
+    "node": ">=8",
+    "yarn": "1.3.2"
+  },
+  "keywords": [],
+  "author": "Jim Cummins <jimthedev@gmail.com> (http://github.com/jimthedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimthedev/jimthedev-scripts/issues"
+  },
+  "homepage": "https://github.com/jimthedev/jimthedev-scripts#readme"
+}
